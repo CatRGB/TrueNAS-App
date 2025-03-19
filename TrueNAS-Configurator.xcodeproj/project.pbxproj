@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41724AE52C18220C003369C9 /* MiniXSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41724AE42C18220C003369C9 /* MiniXSeries.swift */; };
+		41782C072C537AC500BA7AAB /* MiniRSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41782C062C537AC500BA7AAB /* MiniRSeries.swift */; };
+		41782C0B2C53818600BA7AAB /* MiniRConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41782C0A2C53818600BA7AAB /* MiniRConfigSheet.swift */; };
+		4185A6312D1D84D800F53FEE /* F60_Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4185A6302D1D84D600F53FEE /* F60_Series.swift */; };
+		4185D9CD2D280DAD00BB7CE7 /* F100-SeriesConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4185D9CC2D280DA400BB7CE7 /* F100-SeriesConfigSheet.swift */; };
+		4185D9CF2D281FE600BB7CE7 /* F100_Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4185D9CE2D281FD200BB7CE7 /* F100_Series.swift */; };
+		4185D9D42D28261100BB7CE7 /* M30-SeriesConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4185D9D32D28260700BB7CE7 /* M30-SeriesConfigSheet.swift */; };
+		419F545F2C8AD45200A6876D /* R50_Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419F545E2C8AD45200A6876D /* R50_Series.swift */; };
+		41A397792C2D89720097394D /* H10-Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A397782C2D89720097394D /* H10-Series.swift */; };
+		41A3977B2C2D8AD00097394D /* H10-SeriesConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A3977A2C2D8AD00097394D /* H10-SeriesConfigSheet.swift */; };
+		41A397802C2EC3770097394D /* TrueNASSysteme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A3977F2C2EC3770097394D /* TrueNASSysteme.swift */; };
+		41A397822C3270EC0097394D /* SystemFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A397812C3270EC0097394D /* SystemFilter.swift */; };
+		41B35FF92C172422009FC0CA /* TrueNAS_ConfiguratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B35FF82C172422009FC0CA /* TrueNAS_ConfiguratorApp.swift */; };
+		41B35FFB2C172422009FC0CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B35FFA2C172422009FC0CA /* ContentView.swift */; };
+		41B35FFD2C172424009FC0CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B35FFC2C172424009FC0CA /* Assets.xcassets */; };
+		41B360002C172424009FC0CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B35FFF2C172424009FC0CA /* Preview Assets.xcassets */; };
+		41BC2EBC2C172DE800452E29 /* System_Auswahl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BC2EBB2C172DE800452E29 /* System_Auswahl.swift */; };
+		41D968CA2C6CD8E600CE85F1 /* H20-SeriesConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D968C92C6CD8E600CE85F1 /* H20-SeriesConfigSheet.swift */; };
+		41D968CC2C6CE38D00CE85F1 /* H20-Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D968CB2C6CE38D00CE85F1 /* H20-Series.swift */; };
+		41D968D32C6E06AA00CE85F1 /* R10-SeriesConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D968D22C6E06AA00CE85F1 /* R10-SeriesConfigSheet.swift */; };
+		41D968D52C6E14E600CE85F1 /* R10_Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D968D42C6E14E600CE85F1 /* R10_Series.swift */; };
+		41D968D82C6E1D0000CE85F1 /* R20-SeriesConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D968D72C6E1CFF00CE85F1 /* R20-SeriesConfigSheet.swift */; };
+		41D968DB2C6E1D1500CE85F1 /* R40-SeriesConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D968DA2C6E1D1500CE85F1 /* R40-SeriesConfigSheet.swift */; };
+		41D968DE2C6E1D2D00CE85F1 /* R50-SeriesConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D968DD2C6E1D2D00CE85F1 /* R50-SeriesConfigSheet.swift */; };
+		41D968E12C6E1D4200CE85F1 /* R30-SeriesConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D968E02C6E1D4200CE85F1 /* R30-SeriesConfigSheet.swift */; };
+		41D968E32C6F433600CE85F1 /* R20_Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D968E22C6F433600CE85F1 /* R20_Series.swift */; };
+		41D968E52C6F6C1200CE85F1 /* R30_Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D968E42C6F6C1200CE85F1 /* R30_Series.swift */; };
+		41D968E72C6F839300CE85F1 /* R40_Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D968E62C6F839300CE85F1 /* R40_Series.swift */; };
+		41DD52DB2C22DB4200A0462B /* MiniXConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DD52DA2C22DB4200A0462B /* MiniXConfigSheet.swift */; };
+		41EC15592D2D21F800880A8D /* M40-SeriesConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EC15582D2D21F800880A8D /* M40-SeriesConfigSheet.swift */; };
+		41EC155C2D2D223500880A8D /* M50-SeriesConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EC155B2D2D223500880A8D /* M50-SeriesConfigSheet.swift */; };
+		41EC155F2D2D224B00880A8D /* M60-SeriesConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EC155E2D2D224B00880A8D /* M60-SeriesConfigSheet.swift */; };
+		41EC15622D2DB97000880A8D /* M30_Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EC15612D2DB96400880A8D /* M30_Series.swift */; };
+		41FBA8642C92D5AE00E7F8D0 /* F60-SeriesConfigSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBA8632C92D5AE00E7F8D0 /* F60-SeriesConfigSheet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41724AE42C18220C003369C9 /* MiniXSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniXSeries.swift; sourceTree = "<group>"; };
+		41782C062C537AC500BA7AAB /* MiniRSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniRSeries.swift; sourceTree = "<group>"; };
+		41782C0A2C53818600BA7AAB /* MiniRConfigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniRConfigSheet.swift; sourceTree = "<group>"; };
+		4185A6302D1D84D600F53FEE /* F60_Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F60_Series.swift; sourceTree = "<group>"; };
+		4185D9CC2D280DA400BB7CE7 /* F100-SeriesConfigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "F100-SeriesConfigSheet.swift"; sourceTree = "<group>"; };
+		4185D9CE2D281FD200BB7CE7 /* F100_Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F100_Series.swift; sourceTree = "<group>"; };
+		4185D9D32D28260700BB7CE7 /* M30-SeriesConfigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "M30-SeriesConfigSheet.swift"; sourceTree = "<group>"; };
+		419F545E2C8AD45200A6876D /* R50_Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R50_Series.swift; sourceTree = "<group>"; };
+		41A397782C2D89720097394D /* H10-Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "H10-Series.swift"; sourceTree = "<group>"; };
+		41A3977A2C2D8AD00097394D /* H10-SeriesConfigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "H10-SeriesConfigSheet.swift"; sourceTree = "<group>"; };
+		41A3977F2C2EC3770097394D /* TrueNASSysteme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueNASSysteme.swift; sourceTree = "<group>"; };
+		41A397812C3270EC0097394D /* SystemFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFilter.swift; sourceTree = "<group>"; };
+		41B35FF52C172422009FC0CA /* TrueNAS-Configurator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrueNAS-Configurator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B35FF82C172422009FC0CA /* TrueNAS_ConfiguratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueNAS_ConfiguratorApp.swift; sourceTree = "<group>"; };
+		41B35FFA2C172422009FC0CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41B35FFC2C172424009FC0CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41B35FFF2C172424009FC0CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41BC2EBB2C172DE800452E29 /* System_Auswahl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System_Auswahl.swift; sourceTree = "<group>"; };
+		41D968C92C6CD8E600CE85F1 /* H20-SeriesConfigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "H20-SeriesConfigSheet.swift"; sourceTree = "<group>"; };
+		41D968CB2C6CE38D00CE85F1 /* H20-Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "H20-Series.swift"; sourceTree = "<group>"; };
+		41D968D22C6E06AA00CE85F1 /* R10-SeriesConfigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "R10-SeriesConfigSheet.swift"; sourceTree = "<group>"; };
+		41D968D42C6E14E600CE85F1 /* R10_Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R10_Series.swift; sourceTree = "<group>"; };
+		41D968D72C6E1CFF00CE85F1 /* R20-SeriesConfigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "R20-SeriesConfigSheet.swift"; sourceTree = "<group>"; };
+		41D968DA2C6E1D1500CE85F1 /* R40-SeriesConfigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "R40-SeriesConfigSheet.swift"; sourceTree = "<group>"; };
+		41D968DD2C6E1D2D00CE85F1 /* R50-SeriesConfigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "R50-SeriesConfigSheet.swift"; sourceTree = "<group>"; };
+		41D968E02C6E1D4200CE85F1 /* R30-SeriesConfigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "R30-SeriesConfigSheet.swift"; sourceTree = "<group>"; };
+		41D968E22C6F433600CE85F1 /* R20_Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R20_Series.swift; sourceTree = "<group>"; };
+		41D968E42C6F6C1200CE85F1 /* R30_Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R30_Series.swift; sourceTree = "<group>"; };
+		41D968E62C6F839300CE85F1 /* R40_Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R40_Series.swift; sourceTree = "<group>"; };
+		41DD52DA2C22DB4200A0462B /* MiniXConfigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniXConfigSheet.swift; sourceTree = "<group>"; };
+		41EC15582D2D21F800880A8D /* M40-SeriesConfigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "M40-SeriesConfigSheet.swift"; sourceTree = "<group>"; };
+		41EC155B2D2D223500880A8D /* M50-SeriesConfigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "M50-SeriesConfigSheet.swift"; sourceTree = "<group>"; };
+		41EC155E2D2D224B00880A8D /* M60-SeriesConfigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "M60-SeriesConfigSheet.swift"; sourceTree = "<group>"; };
+		41EC15612D2DB96400880A8D /* M30_Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M30_Series.swift; sourceTree = "<group>"; };
+		41FBA8632C92D5AE00E7F8D0 /* F60-SeriesConfigSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "F60-SeriesConfigSheet.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41B35FF22C172422009FC0CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41724AE02C177389003369C9 /* Configurator H-Series */ = {
+			isa = PBXGroup;
+			children = (
+				41D968CE2C6E05A800CE85F1 /* H20 */,
+				41D968CD2C6E059700CE85F1 /* H10 */,
+			);
+			path = "Configurator H-Series";
+			sourceTree = "<group>";
+		};
+		41724AE32C1821C5003369C9 /* Configurator Mini-Series */ = {
+			isa = PBXGroup;
+			children = (
+				41782C092C53814700BA7AAB /* MiniR */,
+				41782C082C53812E00BA7AAB /* MiniX */,
+			);
+			path = "Configurator Mini-Series";
+			sourceTree = "<group>";
+		};
+		41724AE62C18255D003369C9 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				4185D9D12D2825CB00BB7CE7 /* Configurator M-Series */,
+				4185A62D2D1AC5E400F53FEE /* Configurator F-Series */,
+				41D968CF2C6E066200CE85F1 /* Configurator R-Series */,
+				41724AE02C177389003369C9 /* Configurator H-Series */,
+				41724AE32C1821C5003369C9 /* Configurator Mini-Series */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		41782C082C53812E00BA7AAB /* MiniX */ = {
+			isa = PBXGroup;
+			children = (
+				41DD52DA2C22DB4200A0462B /* MiniXConfigSheet.swift */,
+				41724AE42C18220C003369C9 /* MiniXSeries.swift */,
+			);
+			path = MiniX;
+			sourceTree = "<group>";
+		};
+		41782C092C53814700BA7AAB /* MiniR */ = {
+			isa = PBXGroup;
+			children = (
+				41782C062C537AC500BA7AAB /* MiniRSeries.swift */,
+				41782C0A2C53818600BA7AAB /* MiniRConfigSheet.swift */,
+			);
+			path = MiniR;
+			sourceTree = "<group>";
+		};
+		4185A62D2D1AC5E400F53FEE /* Configurator F-Series */ = {
+			isa = PBXGroup;
+			children = (
+				41FBA8612C92D57600E7F8D0 /* F60 */,
+				41FBA8622C92D57F00E7F8D0 /* F100 */,
+			);
+			path = "Configurator F-Series";
+			sourceTree = "<group>";
+		};
+		4185D9D12D2825CB00BB7CE7 /* Configurator M-Series */ = {
+			isa = PBXGroup;
+			children = (
+				41EC155D2D2D224600880A8D /* M60 */,
+				41EC155A2D2D222A00880A8D /* M50 */,
+				41EC15572D2D21D600880A8D /* M40 */,
+				4185D9D22D2825F000BB7CE7 /* M30 */,
+			);
+			path = "Configurator M-Series";
+			sourceTree = "<group>";
+		};
+		4185D9D22D2825F000BB7CE7 /* M30 */ = {
+			isa = PBXGroup;
+			children = (
+				41EC15612D2DB96400880A8D /* M30_Series.swift */,
+				4185D9D32D28260700BB7CE7 /* M30-SeriesConfigSheet.swift */,
+			);
+			path = M30;
+			sourceTree = "<group>";
+		};
+		41B35FEC2C172422009FC0CA = {
+			isa = PBXGroup;
+			children = (
+				41B35FF72C172422009FC0CA /* TrueNAS-Configurator */,
+				41B35FF62C172422009FC0CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41B35FF62C172422009FC0CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41B35FF52C172422009FC0CA /* TrueNAS-Configurator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41B35FF72C172422009FC0CA /* TrueNAS-Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				41B35FF82C172422009FC0CA /* TrueNAS_ConfiguratorApp.swift */,
+				41B35FFA2C172422009FC0CA /* ContentView.swift */,
+				41BC2EBA2C172DBE00452E29 /* System Auswahl */,
+				41B35FFC2C172424009FC0CA /* Assets.xcassets */,
+				41B35FFE2C172424009FC0CA /* Preview Content */,
+			);
+			path = "TrueNAS-Configurator";
+			sourceTree = "<group>";
+		};
+		41B35FFE2C172424009FC0CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41B35FFF2C172424009FC0CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41BC2EBA2C172DBE00452E29 /* System Auswahl */ = {
+			isa = PBXGroup;
+			children = (
+				41BC2EBB2C172DE800452E29 /* System_Auswahl.swift */,
+				41A397812C3270EC0097394D /* SystemFilter.swift */,
+				41724AE62C18255D003369C9 /* Configurator */,
+				41A3977F2C2EC3770097394D /* TrueNASSysteme.swift */,
+			);
+			path = "System Auswahl";
+			sourceTree = "<group>";
+		};
+		41D968CD2C6E059700CE85F1 /* H10 */ = {
+			isa = PBXGroup;
+			children = (
+				41A397782C2D89720097394D /* H10-Series.swift */,
+				41A3977A2C2D8AD00097394D /* H10-SeriesConfigSheet.swift */,
+			);
+			path = H10;
+			sourceTree = "<group>";
+		};
+		41D968CE2C6E05A800CE85F1 /* H20 */ = {
+			isa = PBXGroup;
+			children = (
+				41D968C92C6CD8E600CE85F1 /* H20-SeriesConfigSheet.swift */,
+				41D968CB2C6CE38D00CE85F1 /* H20-Series.swift */,
+			);
+			path = H20;
+			sourceTree = "<group>";
+		};
+		41D968CF2C6E066200CE85F1 /* Configurator R-Series */ = {
+			isa = PBXGroup;
+			children = (
+				41D968DC2C6E1D1A00CE85F1 /* R50 */,
+				41D968D92C6E1D0500CE85F1 /* R40 */,
+				41D968DF2C6E1D3100CE85F1 /* R30 */,
+				41D968D62C6E1CE900CE85F1 /* R20 */,
+				41D968D02C6E066F00CE85F1 /* R10 */,
+			);
+			path = "Configurator R-Series";
+			sourceTree = "<group>";
+		};
+		41D968D02C6E066F00CE85F1 /* R10 */ = {
+			isa = PBXGroup;
+			children = (
+				41D968D22C6E06AA00CE85F1 /* R10-SeriesConfigSheet.swift */,
+				41D968D42C6E14E600CE85F1 /* R10_Series.swift */,
+			);
+			path = R10;
+			sourceTree = "<group>";
+		};
+		41D968D62C6E1CE900CE85F1 /* R20 */ = {
+			isa = PBXGroup;
+			children = (
+				41D968D72C6E1CFF00CE85F1 /* R20-SeriesConfigSheet.swift */,
+				41D968E22C6F433600CE85F1 /* R20_Series.swift */,
+			);
+			path = R20;
+			sourceTree = "<group>";
+		};
+		41D968D92C6E1D0500CE85F1 /* R40 */ = {
+			isa = PBXGroup;
+			children = (
+				41D968DA2C6E1D1500CE85F1 /* R40-SeriesConfigSheet.swift */,
+				41D968E62C6F839300CE85F1 /* R40_Series.swift */,
+			);
+			path = R40;
+			sourceTree = "<group>";
+		};
+		41D968DC2C6E1D1A00CE85F1 /* R50 */ = {
+			isa = PBXGroup;
+			children = (
+				41D968DD2C6E1D2D00CE85F1 /* R50-SeriesConfigSheet.swift */,
+				419F545E2C8AD45200A6876D /* R50_Series.swift */,
+			);
+			path = R50;
+			sourceTree = "<group>";
+		};
+		41D968DF2C6E1D3100CE85F1 /* R30 */ = {
+			isa = PBXGroup;
+			children = (
+				41D968E02C6E1D4200CE85F1 /* R30-SeriesConfigSheet.swift */,
+				41D968E42C6F6C1200CE85F1 /* R30_Series.swift */,
+			);
+			path = R30;
+			sourceTree = "<group>";
+		};
+		41EC15572D2D21D600880A8D /* M40 */ = {
+			isa = PBXGroup;
+			children = (
+				41EC15582D2D21F800880A8D /* M40-SeriesConfigSheet.swift */,
+			);
+			path = M40;
+			sourceTree = "<group>";
+		};
+		41EC155A2D2D222A00880A8D /* M50 */ = {
+			isa = PBXGroup;
+			children = (
+				41EC155B2D2D223500880A8D /* M50-SeriesConfigSheet.swift */,
+			);
+			path = M50;
+			sourceTree = "<group>";
+		};
+		41EC155D2D2D224600880A8D /* M60 */ = {
+			isa = PBXGroup;
+			children = (
+				41EC155E2D2D224B00880A8D /* M60-SeriesConfigSheet.swift */,
+			);
+			path = M60;
+			sourceTree = "<group>";
+		};
+		41FBA8612C92D57600E7F8D0 /* F60 */ = {
+			isa = PBXGroup;
+			children = (
+				4185A6302D1D84D600F53FEE /* F60_Series.swift */,
+				41FBA8632C92D5AE00E7F8D0 /* F60-SeriesConfigSheet.swift */,
+			);
+			path = F60;
+			sourceTree = "<group>";
+		};
+		41FBA8622C92D57F00E7F8D0 /* F100 */ = {
+			isa = PBXGroup;
+			children = (
+				4185D9CE2D281FD200BB7CE7 /* F100_Series.swift */,
+				4185D9CC2D280DA400BB7CE7 /* F100-SeriesConfigSheet.swift */,
+			);
+			path = F100;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41B35FF42C172422009FC0CA /* TrueNAS-Configurator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41B360032C172424009FC0CA /* Build configuration list for PBXNativeTarget "TrueNAS-Configurator" */;
+			buildPhases = (
+				41B35FF12C172422009FC0CA /* Sources */,
+				41B35FF22C172422009FC0CA /* Frameworks */,
+				41B35FF32C172422009FC0CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TrueNAS-Configurator";
+			packageProductDependencies = (
+			);
+			productName = "TrueNAS-Configurator";
+			productReference = 41B35FF52C172422009FC0CA /* TrueNAS-Configurator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41B35FED2C172422009FC0CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					41B35FF42C172422009FC0CA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 41B35FF02C172422009FC0CA /* Build configuration list for PBXProject "TrueNAS-Configurator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41B35FEC2C172422009FC0CA;
+			packageReferences = (
+				41A3977C2C2E7E040097394D /* XCLocalSwiftPackageReference "PartialSheet-master" */,
+			);
+			productRefGroup = 41B35FF62C172422009FC0CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41B35FF42C172422009FC0CA /* TrueNAS-Configurator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41B35FF32C172422009FC0CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B360002C172424009FC0CA /* Preview Assets.xcassets in Resources */,
+				41B35FFD2C172424009FC0CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41B35FF12C172422009FC0CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D968DE2C6E1D2D00CE85F1 /* R50-SeriesConfigSheet.swift in Sources */,
+				4185D9D42D28261100BB7CE7 /* M30-SeriesConfigSheet.swift in Sources */,
+				41FBA8642C92D5AE00E7F8D0 /* F60-SeriesConfigSheet.swift in Sources */,
+				41D968E32C6F433600CE85F1 /* R20_Series.swift in Sources */,
+				41A397822C3270EC0097394D /* SystemFilter.swift in Sources */,
+				41EC15622D2DB97000880A8D /* M30_Series.swift in Sources */,
+				41D968D82C6E1D0000CE85F1 /* R20-SeriesConfigSheet.swift in Sources */,
+				41D968CC2C6CE38D00CE85F1 /* H20-Series.swift in Sources */,
+				41D968DB2C6E1D1500CE85F1 /* R40-SeriesConfigSheet.swift in Sources */,
+				41782C0B2C53818600BA7AAB /* MiniRConfigSheet.swift in Sources */,
+				41D968E12C6E1D4200CE85F1 /* R30-SeriesConfigSheet.swift in Sources */,
+				41DD52DB2C22DB4200A0462B /* MiniXConfigSheet.swift in Sources */,
+				41D968E52C6F6C1200CE85F1 /* R30_Series.swift in Sources */,
+				4185D9CF2D281FE600BB7CE7 /* F100_Series.swift in Sources */,
+				419F545F2C8AD45200A6876D /* R50_Series.swift in Sources */,
+				41D968CA2C6CD8E600CE85F1 /* H20-SeriesConfigSheet.swift in Sources */,
+				41782C072C537AC500BA7AAB /* MiniRSeries.swift in Sources */,
+				41A3977B2C2D8AD00097394D /* H10-SeriesConfigSheet.swift in Sources */,
+				41BC2EBC2C172DE800452E29 /* System_Auswahl.swift in Sources */,
+				41D968D32C6E06AA00CE85F1 /* R10-SeriesConfigSheet.swift in Sources */,
+				41A397802C2EC3770097394D /* TrueNASSysteme.swift in Sources */,
+				41EC15592D2D21F800880A8D /* M40-SeriesConfigSheet.swift in Sources */,
+				41724AE52C18220C003369C9 /* MiniXSeries.swift in Sources */,
+				4185A6312D1D84D800F53FEE /* F60_Series.swift in Sources */,
+				41D968E72C6F839300CE85F1 /* R40_Series.swift in Sources */,
+				41EC155F2D2D224B00880A8D /* M60-SeriesConfigSheet.swift in Sources */,
+				41D968D52C6E14E600CE85F1 /* R10_Series.swift in Sources */,
+				41EC155C2D2D223500880A8D /* M50-SeriesConfigSheet.swift in Sources */,
+				41B35FFB2C172422009FC0CA /* ContentView.swift in Sources */,
+				4185D9CD2D280DAD00BB7CE7 /* F100-SeriesConfigSheet.swift in Sources */,
+				41B35FF92C172422009FC0CA /* TrueNAS_ConfiguratorApp.swift in Sources */,
+				41A397792C2D89720097394D /* H10-Series.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41B360012C172424009FC0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41B360022C172424009FC0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41B360042C172424009FC0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrueNAS-Configurator/Preview Content\"";
+				DEVELOPMENT_TEAM = 894UZJQAB9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TrueNAS;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jts.TrueNAS-Configurator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41B360052C172424009FC0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrueNAS-Configurator/Preview Content\"";
+				DEVELOPMENT_TEAM = 894UZJQAB9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TrueNAS;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jts.TrueNAS-Configurator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41B35FF02C172422009FC0CA /* Build configuration list for PBXProject "TrueNAS-Configurator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B360012C172424009FC0CA /* Debug */,
+				41B360022C172424009FC0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41B360032C172424009FC0CA /* Build configuration list for PBXNativeTarget "TrueNAS-Configurator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B360042C172424009FC0CA /* Debug */,
+				41B360052C172424009FC0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		41A3977C2C2E7E040097394D /* XCLocalSwiftPackageReference "PartialSheet-master" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "PartialSheet-master";
+		};
+/* End XCLocalSwiftPackageReference section */
+	};
+	rootObject = 41B35FED2C172422009FC0CA /* Project object */;
+}
